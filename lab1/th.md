@@ -402,7 +402,7 @@ Let's spend some cake
 Jimmy wanna piece o' your chocolate cake!
 @obumi ➜ /workspaces/os_lab_2025/lab1/src (master) $ rm text.txt > /dev/n
 net/          null          nvme-fabrics  nvram         
-@obumi ➜ /workspaces/os_lab_2025/lab1/src (master) $ rm text.txt > /dev/null 
+@obumi ➜ /workspaces/os_lab_2025/lab1/src (master) $ rm text.txt > /dev/null 2>&1
 @obumi ➜ /workspaces/os_lab_2025/lab1/src (master) $ ls
 background.sh  cake_rhymes.txt  hello.sh  with_cake.txt
 @obumi ➜ /workspaces/os_lab_2025/lab1/src (master) $ chmod +x hello.sh 
